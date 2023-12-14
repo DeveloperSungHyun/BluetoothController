@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="connect">@drawable/not_connect_night</drawable>
+    <drawable name="controller">@drawable/controller_night</drawable>
+    <drawable name="monitor">@drawable/monitor_night</drawable>
+    <drawable name="terminal">@drawable/terminal_night</drawable>
+</resources>
