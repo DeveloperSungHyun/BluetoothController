@@ -22,6 +22,10 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".Controller.Remote.Button"/>
+        <activity android:name=".Controller.Remote.ButtonSettings"/>
+        <activity android:name=".Controller.Remote.Switch"/>
+        <activity android:name=".Controller.Remote.SwitchSettings"/>
     </application>
 
 </manifest>

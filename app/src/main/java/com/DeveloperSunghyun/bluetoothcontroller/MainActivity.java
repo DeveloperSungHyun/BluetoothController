@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 
 import com.DeveloperSunghyun.bluetoothcontroller.FragmentView.Controller_FragmentView;
 import com.DeveloperSunghyun.bluetoothcontroller.FragmentView.Monitor_FragmentView;
@@ -12,11 +14,14 @@ import com.DeveloperSunghyun.bluetoothcontroller.FragmentView.Terminal_FragmentV
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 
+import org.w3c.dom.Text;
+
 public class MainActivity extends AppCompatActivity {
 
     BottomNavigationView BottomNavigationView_SelectButton;
 
     private void id_mapping(){
+
         BottomNavigationView_SelectButton = findViewById(R.id.BottomNavigationView_SelectButton);
     }
     @Override
@@ -25,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         id_mapping();
-
 
         BottomNavigationView_SelectButton.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
