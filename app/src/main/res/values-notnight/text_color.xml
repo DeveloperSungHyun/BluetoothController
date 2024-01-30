@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="BluetoothName">#252525</color>
+    <color name="KeyPadText">#252525</color>
 </resources>

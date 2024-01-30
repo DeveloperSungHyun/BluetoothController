@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="remote_button">@drawable/remote_button_tnight</drawable>
+</resources>

@@ -12,7 +12,8 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center|right"
-        android:padding="10dp">
+        android:padding="10dp"
+        android:animateLayoutChanges="true">
 
         <TextView
             android:id="@+id/TextView_BluetoothName"
@@ -28,9 +29,17 @@
             android:layout_height="wrap_content"
             android:src="@drawable/connect"/>
 
+
+        <TextView
+            android:id="@+id/situation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="연결됨"
+            android:visibility="visible"/>
+
     </LinearLayout>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -38,18 +47,14 @@
             android:id="@+id/FrameLayout_View"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:layout_constraintBottom_toTopOf="@+id/BottomNavigationView_SelectButton"
-            app:layout_constraintEnd_toEndOf="@+id/BottomNavigationView_SelectButton"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:layout_above="@+id/BottomNavigationView_SelectButton"/>
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/BottomNavigationView_SelectButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:menu="@menu/bottom_navigation"
-            tools:ignore="MissingConstraints" />
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/bottom_navigation" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
 </LinearLayout>
