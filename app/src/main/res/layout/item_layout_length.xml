@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="4dp">
+
+        <ImageView
+            android:id="@+id/ImageView_CheckImg"
+            android:layout_width="wrap_content"
+            android:layout_height="240dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/remote_button"/>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

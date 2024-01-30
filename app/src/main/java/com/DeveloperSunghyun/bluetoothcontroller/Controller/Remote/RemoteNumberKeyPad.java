@@ -7,10 +7,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.DeveloperSunghyun.bluetoothcontroller.R;
 
-public class SwitchSettings extends AppCompatActivity {
+public class RemoteNumberKeyPad extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.remote_switch_settings);
+        setContentView(R.layout.remote_number_keypad);
     }
 }

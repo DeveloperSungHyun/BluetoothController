@@ -5,16 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.TextView;
 
 import com.DeveloperSunghyun.bluetoothcontroller.FragmentView.Controller_FragmentView;
 import com.DeveloperSunghyun.bluetoothcontroller.FragmentView.Monitor_FragmentView;
 import com.DeveloperSunghyun.bluetoothcontroller.FragmentView.Terminal_FragmentView;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
-
-import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
 

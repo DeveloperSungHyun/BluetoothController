@@ -7,10 +7,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.DeveloperSunghyun.bluetoothcontroller.R;
 
-public class Button extends AppCompatActivity {
+public class RemoteSwitch extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.remote_button);
+        setContentView(R.layout.remote_switch);
     }
 }

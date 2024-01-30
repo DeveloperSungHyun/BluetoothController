@@ -22,10 +22,14 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Controller.Remote.Button"/>
-        <activity android:name=".Controller.Remote.ButtonSettings"/>
-        <activity android:name=".Controller.Remote.Switch"/>
-        <activity android:name=".Controller.Remote.SwitchSettings"/>
+        <activity android:name=".Controller.Remote.RemoteButton"/>
+        <activity android:name=".Controller.Remote.RemoteButtonSettings"/>
+        <activity android:name=".Controller.Remote.RemoteSwitch"/>
+        <activity android:name=".Controller.Remote.RemoteSwitchSettings"/>
+        <activity android:name=".Controller.Remote.RemoteSlideBar"/>
+        <activity android:name=".Controller.Remote.RemoteArrayWidget"/>
+        <activity android:name=".Controller.Remote.RemoteNumberKeyPad"/>
+        <activity android:name=".Controller.Remote.RemoteKeyPad"/>
     </application>
 
 </manifest>

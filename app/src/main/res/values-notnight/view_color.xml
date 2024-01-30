@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lineColor">#EFEFEF</color>
+    <color name="keypad_button">#EAECEC</color>
+    <color name="BackGround">#FAFAFA</color>
+</resources>
